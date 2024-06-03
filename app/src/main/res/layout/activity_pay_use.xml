@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    tools:context=".PayUseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_buy"
+        android:text="Buy conversions here"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:gravity="center"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:id="@+id/conver5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech 5"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:id="@+id/conver10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech 10"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:id="@+id/conver15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech 15"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:id="@+id/subconver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub Text To Speech"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        />
+
+
+</LinearLayout>
